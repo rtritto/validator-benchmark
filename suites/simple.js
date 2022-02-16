@@ -93,7 +93,7 @@ const obj = {
 	});
 
 	bench.add("joi", () => {
-		return Joi.validate(obj, constraints);
+		return constraints.validate(obj);
 	});
 
 }());
@@ -103,9 +103,12 @@ const obj = {
 // ---- ajv ----
 (function() {
 	const Ajv = require('ajv');
+	const addFormats = require("ajv-formats");
 	const ajv = new Ajv();
+	addFormats(ajv);
 
 	const constraints = {
+		type: "object",
 		properties: {
 			name: { type: "string", minLength: 4, maxLength: 25 },
 			email: { type: "string", format: "email" },
