@@ -222,6 +222,24 @@ const obj = {
 
 }());
 
+// ---- ow ----
+(function() {
+  const { default: ow } = require('ow');
+  
+  const schema = ow.object.exactShape({
+    name:      ow.string.minLength(4).maxLength(25),
+    email:     ow.string.matches(/^\S+@\S+\.\S+$/),
+    firstName: ow.any,
+    phone:     ow.any,
+    age:       ow.number.integer.greaterThan(18),
+  });
+  
+  bench.add("ow", () => {
+    return ow(obj, schema);
+  });
+  
+}());
+
 // ---- yup ----
 (function() {
   const yup = require('yup');

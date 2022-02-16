@@ -44,27 +44,29 @@ Platform info:
    Memory: 32 GB
 
 Suite: Simple object
-✔ validator.js              1.028.961 rps
-✔ validate.js                 539.468 rps
-✔ validatorjs                 360.864 rps
-✔ joi                         317.370 rps
-✔ ajv                      12.852.562 rps
-✔ mschema                   1.317.827 rps
-✔ parambulator                 48.926 rps
-✔ fastest-validator        13.994.413 rps
-✔ yup                          79.091 rps
-✔ zod                         473.776 rps
+✔ validator.js                999.925 rps
+✔ validate.js                 517.071 rps
+✔ validatorjs                 317.847 rps
+✔ joi                         267.952 rps
+✔ ajv                       9.803.050 rps
+✔ mschema                     927.354 rps
+✔ parambulator                 34.191 rps
+✔ fastest-validator        10.614.409 rps
+✔ ow                           74.893 rps
+✔ yup                          71.066 rps
+✔ zod                         349.634 rps
 
-   validator.js            -92,65%      (1.028.961 rps)   (avg: 971ns)
-   validate.js             -96,15%        (539.468 rps)   (avg: 1μs)
-   validatorjs             -97,42%        (360.864 rps)   (avg: 2μs)
-   joi                     -97,73%        (317.370 rps)   (avg: 3μs)
-   ajv                      -8,16%     (12.852.562 rps)   (avg: 77ns)
-   mschema                 -90,58%      (1.317.827 rps)   (avg: 758ns)
-   parambulator            -99,65%         (48.926 rps)   (avg: 20μs)
-   fastest-validator            0%     (13.994.413 rps)   (avg: 71ns)
-   yup                     -99,43%         (79.091 rps)   (avg: 12μs)
-   zod                     -96,61%        (473.776 rps)   (avg: 2μs)
+   validator.js            -90,58%        (999.925 rps)   (avg: 1μs)
+   validate.js             -95,13%        (517.071 rps)   (avg: 1μs)
+   validatorjs             -97,01%        (317.847 rps)   (avg: 3μs)
+   joi                     -97,48%        (267.952 rps)   (avg: 3μs)
+   ajv                      -7,64%      (9.803.050 rps)   (avg: 102ns)
+   mschema                 -91,26%        (927.354 rps)   (avg: 1μs)
+   parambulator            -99,68%         (34.191 rps)   (avg: 29μs)
+   fastest-validator            0%     (10.614.409 rps)   (avg: 94ns)
+   ow                      -99,29%         (74.893 rps)   (avg: 13μs)
+   yup                     -99,33%         (71.066 rps)   (avg: 14μs)
+   zod                     -96,71%        (349.634 rps)   (avg: 2μs)
 -----------------------------------------------------------------------
 ```
 
