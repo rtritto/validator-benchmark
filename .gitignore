@@ -1,5 +1,4 @@
 .DS_Store
-node_modules/
 coverage/
 docs/_book/
 npm-debug.log
@@ -7,3 +6,12 @@ selenium-debug.log
 test/unit/coverage
 test/e2e/reports
 stats.json
+
+# yarn berry
+.yarn/*
+# !.yarn/cache
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
