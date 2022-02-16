@@ -44,25 +44,27 @@ Platform info:
    Memory: 32 GB
 
 Suite: Simple object
-✔ validator.js              1.033.357 rps
-✔ validate.js                 537.337 rps
-✔ validatorjs                 365.611 rps
-✔ joi                         318.212 rps
-✔ ajv                      13.199.169 rps
-✔ mschema                   1.292.487 rps
-✔ parambulator                 49.237 rps
-✔ fastest-validator        14.002.822 rps
-✔ yup                          79.317 rps
+✔ validator.js              1.028.961 rps
+✔ validate.js                 539.468 rps
+✔ validatorjs                 360.864 rps
+✔ joi                         317.370 rps
+✔ ajv                      12.852.562 rps
+✔ mschema                   1.317.827 rps
+✔ parambulator                 48.926 rps
+✔ fastest-validator        13.994.413 rps
+✔ yup                          79.091 rps
+✔ zod                         473.776 rps
 
-   validator.js            -92,62%      (1.033.357 rps)   (avg: 967ns)
-   validate.js             -96,16%        (537.337 rps)   (avg: 1μs)
-   validatorjs             -97,39%        (365.611 rps)   (avg: 2μs)
-   joi                     -97,73%        (318.212 rps)   (avg: 3μs)
-   ajv                      -5,74%     (13.199.169 rps)   (avg: 75ns)
-   mschema                 -90,77%      (1.292.487 rps)   (avg: 773ns)
-   parambulator            -99,65%         (49.237 rps)   (avg: 20μs)
-   fastest-validator            0%     (14.002.822 rps)   (avg: 71ns)
-   yup                     -99,43%         (79.317 rps)   (avg: 12μs)
+   validator.js            -92,65%      (1.028.961 rps)   (avg: 971ns)
+   validate.js             -96,15%        (539.468 rps)   (avg: 1μs)
+   validatorjs             -97,42%        (360.864 rps)   (avg: 2μs)
+   joi                     -97,73%        (317.370 rps)   (avg: 3μs)
+   ajv                      -8,16%     (12.852.562 rps)   (avg: 77ns)
+   mschema                 -90,58%      (1.317.827 rps)   (avg: 758ns)
+   parambulator            -99,65%         (48.926 rps)   (avg: 20μs)
+   fastest-validator            0%     (13.994.413 rps)   (avg: 71ns)
+   yup                     -99,43%         (79.091 rps)   (avg: 12μs)
+   zod                     -96,61%        (473.776 rps)   (avg: 2μs)
 -----------------------------------------------------------------------
 ```
 
