@@ -47,7 +47,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["validate.js", "npm:0.13.1"],\
             ["validator.js", "npm:2.0.4"],\
             ["validatorjs", "npm:3.22.1"],\
-            ["yup", "npm:0.32.11"]\
+            ["yup", "npm:0.32.11"],\
+            ["zod", "npm:3.11.6"]\
           ],\
           "linkType": "SOFT"\
         }]\
@@ -1745,7 +1746,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["validate.js", "npm:0.13.1"],\
             ["validator.js", "npm:2.0.4"],\
             ["validatorjs", "npm:3.22.1"],\
-            ["yup", "npm:0.32.11"]\
+            ["yup", "npm:0.32.11"],\
+            ["zod", "npm:3.11.6"]\
           ],\
           "linkType": "SOFT"\
         }]\
@@ -1818,6 +1820,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["nanoclone", "npm:0.2.1"],\
             ["property-expr", "npm:2.0.5"],\
             ["toposort", "npm:2.0.2"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["zod", [\
+        ["npm:3.11.6", {\
+          "packageLocation": "./.yarn/cache/zod-npm-3.11.6-81ff8714d2-044ac41645.zip/node_modules/zod/",\
+          "packageDependencies": [\
+            ["zod", "npm:3.11.6"]\
           ],\
           "linkType": "HARD"\
         }]\

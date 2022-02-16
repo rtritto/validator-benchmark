@@ -241,6 +241,24 @@ const obj = {
 
 }());
 
+// ---- zod ----
+(function() {
+  const { z } = require('zod');
+
+  const schema = z.object({
+    name:      z.string().min(4).max(25),
+    email:     z.string().email(),
+    firstName: z.any(),
+    phone:     z.any(),
+    age:       z.number().int().min(18),
+  });
+
+
+  bench.add("zod", () => {
+    return schema.parse(obj);
+  });
+
+}());
 
 
 bench.run();
