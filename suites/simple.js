@@ -278,5 +278,24 @@ const obj = {
 
 }());
 
+// ---- typanion ----
+(function() {
+  const t = require('typanion');
+
+  const check = t.isObject({
+    name:      t.cascade(t.isString(), t.hasMinLength(4), t.hasMaxLength(25)),
+	email:     t.isString(),
+    firstName: t.isUnknown(),
+    phone:     t.isUnknown(),
+	age:       t.cascade(t.isNumber(), t.isPositive(), t.isAtLeast(18))
+  });
+
+
+  bench.add("typanion", () => {
+    return check(obj);
+  });
+
+}());
+
 
 bench.run();

@@ -24,6 +24,7 @@
     "mschema": "^0.5.6",
     "ow": "^0.28.1",
     "parambulator": "^1.5.2",
+    "typanion": "^3.8.0",
     "validate.js": "^0.13.1",
     "validator.js": "^2.0.4",
     "validatorjs": "^3.22.1",

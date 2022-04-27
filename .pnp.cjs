@@ -45,6 +45,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["mschema", "npm:0.5.6"],\
             ["ow", "npm:0.28.1"],\
             ["parambulator", "npm:1.5.2"],\
+            ["typanion", "npm:3.8.0"],\
             ["validate.js", "npm:0.13.1"],\
             ["validator.js", "npm:2.0.4"],\
             ["validatorjs", "npm:3.22.1"],\
@@ -153,13 +154,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@sindresorhus/is", [\
-        ["npm:4.6.0", {\
-          "packageLocation": "./.yarn/cache/@sindresorhus-is-npm-4.6.0-7cad05c55e-83839f13da.zip/node_modules/@sindresorhus/is/",\
-          "packageDependencies": [\
-            ["@sindresorhus/is", "npm:4.6.0"]\
-          ],\
-          "linkType": "HARD"\
-        }],\
         ["npm:4.6.0", {\
           "packageLocation": "./.yarn/cache/@sindresorhus-is-npm-4.6.0-7cad05c55e-83839f13da.zip/node_modules/@sindresorhus/is/",\
           "packageDependencies": [\
@@ -1822,6 +1816,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["mschema", "npm:0.5.6"],\
             ["ow", "npm:0.28.1"],\
             ["parambulator", "npm:1.5.2"],\
+            ["typanion", "npm:3.8.0"],\
             ["validate.js", "npm:0.13.1"],\
             ["validator.js", "npm:2.0.4"],\
             ["validatorjs", "npm:3.22.1"],\
